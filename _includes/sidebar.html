@@ -1,12 +1,10 @@
-<h2 class="sidebarheader">Lance Lafontaine's Internet Home.</h2>
+<h2 class="sidebarheader"> <a href="/index.html">Lance Lafontaine's Internet Home.</a></h2>
 <div class="sidebarimg">
-  <img src="/img/gravatarpic.jpeg" alt="Headshot Picture.">
+	<a href="/index.html"><img src="/img/gravatarpic.jpeg" alt="Headshot Picture."></a>
 </div>
 
-<h4>About me.</h4>
-<h4>Recent Posts.</h4>
-
-
+<h4><a href="/about/index.html">About me.</a></h4>
+<h4>Recent Posts:</h4>
 <ul>
   {% for post in site.posts limit: 5 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
