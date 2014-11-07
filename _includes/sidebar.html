@@ -1,0 +1,20 @@
+<h2 class="sidebarheader">Lance Lafontaine's Internet Home.</h2>
+<div class="sidebarimg">
+  <img src="/img/gravatarpic.jpeg" alt="Headshot Picture.">
+</div>
+
+<h4>About me.</h4>
+<h4>Recent Posts.</h4>
+
+
+<ul>
+  {% for post in site.posts limit: 5 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<h4>Post Archives?</h4>
+<h4>Resume.</h4>
+
+<p>This site was made with Bootstrap and Jekyll.</p>
+<div>Icons made by Freepik, Elegant Themes, Yannick, Icomoon and SimpleIcon from <a href="http://www.flaticon.com" title="Flaticon">FlatIcon</a> and is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>.</div>
