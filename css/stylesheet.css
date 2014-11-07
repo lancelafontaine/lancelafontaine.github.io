@@ -53,6 +53,33 @@ body {
   margin: 0 35px;
 }
 
+.icons {
+  position: relative;
+  margin: 15px auto;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+
+
+}
+
+.icons a{
+  position: relative;
+  left: 3%;
+  display: table-cell;
+  color: rgba(0,0,0,0.5);
+
+}
+
+.icons a:hover{
+  text-decoration: none;
+}
+
+.icons i {
+  display: table-cell;
+  text-align: center;
+}
+
 
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
