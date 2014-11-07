@@ -45,6 +45,10 @@ body {
   margin-left: auto;
 }
 
+.attributions {
+  font-size: 80%;
+}
+
 #main {
   margin: 0 35px;
 }
