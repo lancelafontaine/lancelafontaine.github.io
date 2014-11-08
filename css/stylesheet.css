@@ -40,7 +40,7 @@ body {
   border-radius: 10px;
   border: 3px solid rgba(0,0,0,0.5);
   display: block;
-  height: 200px;
+  height: 170px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -87,6 +87,11 @@ body {
   margin: auto;
 }
 
+.bio {
+  position: relative;
+  top: 3px;
+  font-size: 85%;
+}
 
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
