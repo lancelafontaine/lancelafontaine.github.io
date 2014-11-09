@@ -14,16 +14,17 @@ body {
   padding-top: 20px;
 }
 
+.container {
+  position: relative;
+}
+
 .sidebar {
   border: 1px solid rgba(0,0,0,0.1);
   background: rgba(0,0,0,0.05);
   position: fixed;
   padding-bottom: 10px;
   margin-bottom: 10px;
-    text-align: center;
-}
-
-.sidebarheader {
+  text-align: center;
 }
 
 .sidebarheader a{
@@ -49,7 +50,7 @@ body {
   font-size: 80%;
 }
 
-#main {
+.main {
   margin: 0 35px;
 }
 
@@ -91,6 +92,13 @@ body {
   top: 3px;
   font-size: 85%;
 }
+
+.returnlink {
+  display: inline;
+  float:right;
+}
+
+
 
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
