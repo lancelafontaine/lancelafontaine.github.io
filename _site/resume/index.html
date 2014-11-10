@@ -1,30 +1,4 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="author" content="Lance Lafontaine">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lance Lafontaine's Internet Home</title>
-
-  <!-- Website Stylesheet -->
-  <link rel="stylesheet" href="/css/stylesheet.css">
-
-  <!-- BOOTSTRAP Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-
-  <!-- Font Awesome CSS-->
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
-
-  <!-- Open Sans Light font -->
-  <link href='http://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'> 
-
-  <!-- ShareThis Share Buttons -->
-  <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-  <script type="text/javascript">stLight.options({publisher: "8949da36-b368-4ff9-9108-0a5c6e23b497", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-
-</head>
-<body>
+{% include header.html %}
 
   <div class="headerbar">
     <div class="headerpath">
@@ -35,32 +9,7 @@
 
   <div class="container">
     <div class="sidebar col-md-3">
-      <h2 class="sidebarheader"> <a href="/index.html">Lance Lafontaine's Internet Home.</a></h2>
-      <div class="sidebarimg">
-        <a href="/index.html"><img src="/img/gravatarpic.jpeg" alt="Headshot Picture."></a>
-      </div>
-
-      <p class="bio">Software engineering student at Concordia University, Montreal. </p>
-
-      <div class="hr"></div>
-
-      <div class="sidebarlinks">
-        <div><a href="/about/index.html">About Me.</a></div> 
-        <div><a href="/resume/index.html">Resume.</a></div> 
-        <div><a href="/archive/index.html">The Archive.</a></div> 
-      </div>
-
-      <div class="hr"></div>
-
-      <div class="icons">
-        <a target="_blank" href="https://twitter.com/LanceLafontaine"><i class="fa fa-2x fa-twitter"></i></a>
-        <a target="_blank" href="https://www.linkedin.com/pub/lance-lafontaine/41/3b4/750"><i class="fa fa-2x fa-linkedin"></i></a> 
-        <a target="_blank" href="https://github.com/lancelafontaine"><i class="fa fa-2x fa-github"></i></a>
-        <a target="_blank" href="http://stackexchange.com/users/1137597/lancelafontaine?tab=accounts"><i class="fa fa-2x fa-stack-exchange"></i></a>
-        <a target="_blank" href="http://stackoverflow.com/users/2037867/lancelafontaine"><i class="fa fa-2x fa-stack-overflow"></i></a>
-        <a target="_blank" href="http://lancelafontaine.github.io/feed.xml"><i class="fa fa-2x fa-rss"></i></a>
-      </div>
-
+      {% include sidebar.html %}
     </div>
     <div class="col-md-9">
       <div class="main">
@@ -91,10 +40,4 @@
     </div>
   </div> 
 
-
-  <!-- BOOTSTRAP Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  <!-- Script to load JQuery-->
-  <!-- <script src="http://code.jquery.com/jquery-2.1.1.js"></script> -->
-</body>
-</html>
+{% include footer.html %}
