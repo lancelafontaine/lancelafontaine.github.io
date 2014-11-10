@@ -46,8 +46,8 @@ body {
   margin-left: auto;
 }
 
-.attributions {
-  font-size: 80%;
+.sidebarlinks {
+  font-size: 120%
 }
 
 .main {
@@ -97,6 +97,28 @@ body {
   display: inline;
   float:right;
 }
+
+.endofarticle {
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 5px;
+  padding: 20px 20px;
+  background: rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
