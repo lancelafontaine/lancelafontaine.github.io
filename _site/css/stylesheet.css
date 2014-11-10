@@ -41,8 +41,8 @@ body {
   padding-top: 20px;
 }
 
-.container {
-  position: relative;
+.container p{
+  font-size: 115%;
 }
 
 .sidebar {
@@ -140,7 +140,9 @@ body {
   margin-bottom: 30px;
 }
 
-
+.aboutme h1 {
+  font-size: 600%
+}
 
 
 
