@@ -23,6 +23,15 @@ body {
   color: white;
 }
 
+.headerpath a{
+  color: white;
+}
+
+.headerpath a:hover {
+  color:yellow;
+  text-decoration: none;
+}
+
 .prompt {
   color: yellow;
 }
