@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lance Lafontaine</title>
-    <description>Lance Lafontaine&#39;s Internet Home.</description>
-    <link>lancelafontaine.github.io</link>
-    <atom:link href="lancelafontaine.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Lance Lafontaine's Internet Home.</description>
+    <link>http://lancelafontaine.github.io</link>
+    <atom:link href="http://lancelafontaine.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Hello, world! A first post from a new developer.</title>
@@ -38,27 +38,27 @@
 
 
 
-&lt;p&gt;But with great power comes great responsibility. The change in career paths was a difficult realization to come to terms with, especially after working so hard for an entire degree&#39;s worth, but I couldn&#39;t deny that &lt;a target=&quot;_blank&quot; href=&quot;http://thisdeveloperslife.com/&quot;&gt;this developer&#39;s life&lt;/a&gt; was for me.&lt;/p&gt;
+&lt;p&gt;But with great power comes great responsibility. The change in career paths was a difficult realization to come to terms with, especially after working so hard for an entire degree's worth, but I couldn't deny that &lt;a target=&quot;_blank&quot; href=&quot;http://thisdeveloperslife.com/&quot;&gt;this developer's life&lt;/a&gt; was for me.&lt;/p&gt;
 
 
 
 
-&lt;p&gt;After considering some options that were available to me (like an Independent Master&#39;s in Bioinformatics), I decided to look into another Bachelor&#39;s degree because it would provide me with a stronger foundation in computer science as well as the possibility for paid internships to help me finance my studies. I ended up applying for the Software Engineering Co-op program at Concordia and &lt;a target=&quot;_blank&quot; href=&quot;http://cdn1.hubspot.com/hub/245581/file-317911732.jpg&quot;&gt;got in&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After considering some options that were available to me (like an Independent Master's in Bioinformatics), I decided to look into another Bachelor's degree because it would provide me with a stronger foundation in computer science as well as the possibility for paid internships to help me finance my studies. I ended up applying for the Software Engineering Co-op program at Concordia and &lt;a target=&quot;_blank&quot; href=&quot;http://cdn1.hubspot.com/hub/245581/file-317911732.jpg&quot;&gt;got in&lt;/a&gt;.&lt;/p&gt;
 
 
 
 
-&lt;p&gt; And now here I am, enjoying my first semester in the new program. There are &lt;em&gt;so many&lt;/em&gt; new concepts, languages, and technologies to learn, but I&#39;m extremely happy with my current situation, and that is truly what matters most to me.&lt;/p&gt;
+&lt;p&gt; And now here I am, enjoying my first semester in the new program. There are &lt;em&gt;so many&lt;/em&gt; new concepts, languages, and technologies to learn, but I'm extremely happy with my current situation, and that is truly what matters most to me.&lt;/p&gt;
 
 
 
 
-&lt;p&gt;I will be updating this blog semi-regularly provided that coursework doesn&#39;t get in the way, so be sure to check back here for new blog posts, rants, milestones, stories and/or opinionated thoughts along the way to my developer path. I&#39;d love to hear from you too: leave a comment below.&lt;/p&gt;
+&lt;p&gt;I will be updating this blog semi-regularly provided that coursework doesn't get in the way, so be sure to check back here for new blog posts, rants, milestones, stories and/or opinionated thoughts along the way to my developer path. I'd love to hear from you too: leave a comment below.&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 06 Nov 2014 00:00:00 -0500</pubDate>
-        <link>lancelafontaine.github.io//2014/11/06/A-first-post-some-dummy-text/</link>
-        <guid isPermaLink="true">lancelafontaine.github.io//2014/11/06/A-first-post-some-dummy-text/</guid>
+        <link>http://lancelafontaine.github.io//2014/11/06/A-first-post-some-dummy-text/</link>
+        <guid isPermaLink="true">http://lancelafontaine.github.io//2014/11/06/A-first-post-some-dummy-text/</guid>
       </item>
     
   </channel>
