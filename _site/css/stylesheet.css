@@ -4,17 +4,37 @@ body {
 }
 
 .headerbar {
-  padding: 5px 0;
+  position: relative;
+  height: 300px;
   width: 100%;
-  background: rgba(0,0,0,0.7);
+  background: url(../img/headerbackground.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  bottom: 20px;
+}
 
-  /* linear gradient */ 
-  background-image: -ms-linear-gradient(top, #2d2d2d 0%, #4d4d4d 100%);
-  background-image: -moz-linear-gradient(top, #2d2d2d 0%, #4d4d4d 100%);
-  background-image: -o-linear-gradient(top, #2d2d2d 0%, #4d4d4d 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2d2d2d), color-stop(1, #4d4d4d));
-  background-image: -webkit-linear-gradient(top, #2d2d2d 0%, #4d4d4d 100%);
-  background-image: linear-gradient(to bottom, #2d2d2d 0%, #4d4d4d 100%);
+.headerbarcontents {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.headerbar h1 {
+
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-weight: 900;
+}
+
+.headerbardivider {
+  position: relative;
+  background: rgba(0,0,0,0.9);
+  height: 5px;
+  bottom: 20px;
+
 
 }
 
@@ -94,19 +114,16 @@ body {
 
 .icons {
   position: relative;
-  margin: 15px auto;
+  margin: 15px 0;
   display: table;
   width: 100%;
-  table-layout: fixed;
-
-
 }
 
 .icons a{
   position: relative;
   display: table-cell;
-  color: rgba(0,0,0,0.5);
-
+  left: 13px;
+  color: white;
 }
 
 .icons a:hover{
