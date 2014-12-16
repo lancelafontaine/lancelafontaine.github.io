@@ -168,7 +168,9 @@ section .content h3{
 }
 
 
-
+.postsummary {
+  margin: 0 15px;
+}
 
 
 
