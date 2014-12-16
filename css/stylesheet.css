@@ -112,8 +112,60 @@ body {
 }
 
 
+section {
+    padding: 10px;
+}
+
+section .icon {
+    color: #999999;
+    display: table-cell;
+    text-align: center;
+    min-width: 50px;
+    max-width: 50px;
+}
+
+section .content {
+    display: table-cell;
+    width: 100%;
+}
+
+section .content h3{
+    margin: 0;
+}
+
+.card {
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    padding: 10px;    
+    border-radius: 3px;
+    box-shadow: 0 6px 6px -6px #000000;
+}
 
 
+.when i,
+.where i,
+.degree i,
+.jobDetails i {
+    width: 25px;
+    color: #1B325F;
+    text-align: center;
+}
+
+.skillGroup {
+    margin-bottom: 10px;
+}
+
+.skillGroup span {
+    font-size: 0.75em;
+    line-height: 2em;
+    font-weight: bold;
+    background: #3A89C9;
+    color: #FFFFFF;
+    padding: 2px 5px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
 
 
 
