@@ -31,6 +31,13 @@ body {
   font-weight: 900;
 }
 
+.headerbarcontents p {
+  color: white;
+  text-align: center;
+  font-size: 85%;
+  margin: 0 0;
+}
+
 .headerbardivider {
   position: relative;
   background: rgba(0,0,0,0.9);
