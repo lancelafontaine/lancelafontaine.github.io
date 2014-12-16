@@ -5,7 +5,7 @@ body {
 
 .headerbar {
   position: relative;
-  height: 300px;
+  height: 250px;
   width: 100%;
   background: url(../img/headerbackground.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -26,20 +26,9 @@ body {
   font-size: 50px;
 }
 
-.headerbarcontents h1 a {
-  font-weight: 900;
-}
-
-.headerbarcontents p{
-  position: relative;
-  top: 35px;
-  text-align: center;
-}
-
 .headerbarcontents a {
   color: white;
-  font-weight: 400;
-  
+  font-weight: 900;
 }
 
 .headerbardivider {
@@ -47,74 +36,11 @@ body {
   background: rgba(0,0,0,0.9);
   height: 5px;
   bottom: 20px;
-
-
 }
 
-.headerpath {
-  padding-left: 8%;
-  color: white;
-}
-
-.headerpath a{
-  color: white;
-}
-
-.headerpath a:hover {
-  color:yellow;
-  text-decoration: none;
-}
-
-.prompt {
-  color: yellow;
-}
-
-.headerwhitespace {
-  position: relative;
-  padding-top: 20px;
-}
 
 .container h1 {
   font-size: 300%
-}
-
-.sidebar {
-  border: 1px solid rgba(0,0,0,0.1);
-  position: fixed;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  text-align: center;
-  border-radius: 5px;
-    /* linear gradient */ 
-  background-image: -ms-linear-gradient(top, #f2f2f2 0%, #fefefe 100%);
-  background-image: -moz-linear-gradient(top, #f2f2f2 0%, #fefefe 100%);
-  background-image: -o-linear-gradient(top, #f2f2f2 0%, #fefefe 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f2f2f2), color-stop(1, #fefefe));
-  background-image: -webkit-linear-gradient(top, #f2f2f2 0%, #fefefe 100%);
-  background-image: linear-gradient(to bottom, #f2f2f2 0%, #fefefe 100%);
-}
-
-.sidebarheader a{
-  text-decoration: none;
-  color: rgba(0,0,0,0.8);
-}
-
-.sidebarimg {
-  position: relative;
-  margin: 5px 0;
-}
-
-.sidebarimg img{
-  border-radius: 10px;
-  border: 3px solid rgba(0,0,0,0.5);
-  display: block;
-  height: 170px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.sidebarlinks {
-  font-size: 120%
 }
 
 .main {
@@ -135,7 +61,7 @@ body {
 .icons a{
   position: relative;
   display: table-cell;
-  left: 13px;
+  left: 10px;
   color: white;
 }
 
@@ -174,7 +100,9 @@ body {
   margin-bottom: 30px;
 }
 
-
+.fa-male {
+  margin: 0 5px;
+}
 
 
 
