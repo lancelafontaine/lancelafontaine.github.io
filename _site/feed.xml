@@ -7,6 +7,35 @@
     <atom:link href="http://lancelafontaine.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>A Beginner's Cheat Sheet to Vim.</title>
+        <description>&lt;p&gt;Over the past month or so, I have been making the gradual switch from &lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text 2&lt;/a&gt; to &lt;a href=&quot;https://en.wikipedia.org/wiki/Vim_%28text_editor%29&quot;&gt;vim&lt;/a&gt; after reading about its supposed increase in efficency. Although I had been warned of vim's steep learning curve, I actually found the transition to be rather smooth, and I'm now feeling about as comfortable with it as I did with ST2.&lt;/p&gt;
+
+&lt;p&gt;One of the things that really helped me internalize vim's plethora of commands and shortcuts was making my own cheatsheet. I would suggest you do the same, but if you want to cheat &lt;em&gt;(pun)&lt;/em&gt; and save yourself some time, you can take a look at what I've made.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;div style=&quot;
+  width:800px;
+  height:620px;
+  border-radius: 5px;
+  background:#ccc;
+  padding:10px;
+  position:relative;
+  margin:auto &quot;&gt;
+&lt;iframe src=&quot;http://docs.google.com/viewer?url=https%3A%2F%2Fgithub.com%2Flancelafontaine%2Fvim-cheatsheet%2Fraw%2Fmaster%2Fvimcheatsheet.pdf&amp;embedded=true&quot; width=&quot;780&quot; height=&quot;600&quot; style=&quot;border: none;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;You can download it in PDF format &lt;a href=&quot;https://github.com/lancelafontaine/vim-cheatsheet/raw/master/vimcheatsheet.pdf&quot;&gt;here&lt;/a&gt;, as well as view the LaTeX code used to make the document in this &lt;a href=&quot;https://github.com/lancelafontaine/vim-cheatsheet&quot;&gt;Github repository&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Jan 2015 00:00:00 -0500</pubDate>
+        <link>http://lancelafontaine.github.io//2015/01/13/beginner-vim-cheat-sheet/</link>
+        <guid isPermaLink="true">http://lancelafontaine.github.io//2015/01/13/beginner-vim-cheat-sheet/</guid>
+      </item>
+    
+      <item>
         <title>Hello, world! A first post from a new developer.</title>
         <description>&lt;p&gt;My name is Lance Lafontaine and I am a software engineering student at &lt;a target=&quot;_blank&quot; href=&quot;https://www.concordia.ca/&quot;&gt;Concordia University&lt;/a&gt; in Montreal, Canada. I love full-stack web dev, Linux and Unix operating systems, and everything about open source and startups.&lt;/p&gt;
 
