@@ -1,9 +1,0 @@
-name: "Lance Lafontaine"
-description: "Lance Lafontaine's Internet Home."
-
-url: "http://lancelafontaine.github.io"
-
-paginate: 10
-
-markdown: rdiscount
-permalink: pretty
