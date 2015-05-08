@@ -41,7 +41,6 @@ html, body {
 }
 .container h2 {
   font-size: 2em;
-  margin: 0;
   display: inline;
 }
 .container p {
@@ -50,7 +49,6 @@ html, body {
 .fa {
   margin: 5px 15px;
 }
-.block {}
 .block img {
   border: 5px solid white;
   margin: 0 auto;
@@ -80,6 +78,7 @@ html, body {
 .border {
   border: 1px solid white;
   border-radius: 10px;
+  text-align: left;
 }
 a i {
   color: white;
