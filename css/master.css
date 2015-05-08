@@ -1,0 +1,76 @@
+html, body {
+  margin: 0;
+  overflow-x: hidden;
+}
+canvas {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background: #111;
+  z-index: -99999;
+}
+.container {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-shadow: 2px 0 0 rgb(45, 45, 45), -2px 0 0 rgb(45, 45, 45), 0 2px 0 rgb(45, 45, 45), 0 -2px 0 rgb(45, 45, 45), 1px 1px rgb(45, 45, 45), -1px -1px 0 rgb(45, 45, 45), 1px -1px 0 rgb(45, 45, 45), -1px 1px 0 rgb(45, 45, 45);
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+#name {
+  font-size: 5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#slogan {
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.container h2 {
+  font-size: 2em;
+  margin: 0;
+  display: inline;
+}
+.container p {
+  font-size: 1.1em;
+}
+.fa {
+  margin: 5px 15px;
+}
+.block {}
+.block img {
+  border: 5px solid white;
+  margin: 0 auto;
+  max-height: 350px;
+}
+.horiz {
+  position: relative;
+}
+.icons1 {
+  display: inline-block;
+}
+.icons1 i {
+  margin: 5px 16px;
+}
+.icons2 {
+  display: inline-block;
+}
+.icons2 i {
+  margin: 5px 13px;
+  ;
+}
+.progress {
+  margin: 5px auto;
+  width: 85%;
+}
+.border {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+a i {
+  color: white;
+}
+a i:hover {
+  color: #337AB7;
+}
