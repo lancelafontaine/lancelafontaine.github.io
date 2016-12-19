@@ -8,6 +8,7 @@
   const plumber = require('gulp-plumber');
   const connect = require('gulp-connect');
   const concat = require('gulp-concat');
+  const sass = require('gulp-sass');
 
   gulp.task('default', () => {
     runSequence(['html', 'css'], ['server', 'watch']);
@@ -23,9 +24,10 @@
   });
 
   gulp.task('css', () => {
-    gulp.src('src/scss/*.scss')
-      .pipe(concat('style.min.css'))
+    gulp.src(['src/scss/*.scss', 'src/scss/*.css'])
       .pipe(plumber())
+      .pipe(concat('style.min.css'))
+      .pipe(sass())
       .pipe(autoprefixer({
         browsers: ['> 1%'],
           cascade: false
@@ -39,21 +41,18 @@
   gulp.task('server', () => {
     connect.server({
       root: '.',
-      livereload: true
+      livereload: false
     });
   });
 
   gulp.task('watch', () => {
-    watch('**/*.html', () => {
+    watch('src/html/*.html', () => {
       gulp.start('html');
 
     });
-    watch('**/*.scss', () => {
+    watch('src/scss/*.scss', () => {
         gulp.start('css');
     });
-
-
   });
-
 
 })();
