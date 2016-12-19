@@ -2,7 +2,8 @@ $cube-border-color: #ccc;
 $cube-face-color: rgba(155,48,255,0.01);
 
 #floating-cube {
-  margin: 100px;
+  margin-top: 60px;
+  margin-right: 40px;
   position: relative;
   transform-origin: 50% 50% -25px;
   transform-style: preserve-3d;
