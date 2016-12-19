@@ -10,6 +10,7 @@
     "gulp-connect": "^5.0.0",
     "gulp-htmlmin": "^3.0.0",
     "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.0.0",
     "gulp-watch": "^4.3.11",
     "run-sequence": "^1.2.2"
   }
