@@ -1,0 +1,58 @@
+$cube-border-color: #f8f8f2;
+$cube-face-color: rgba(189,147,249,0.08);
+
+#floating-cube {
+  margin-top: 65px;
+  margin-bottom: 140px;
+  margin-right: 40px;
+  position: relative;
+  transform-origin: 50% 50% -25px;
+  transform-style: preserve-3d;
+  animation: spin 80s infinite linear;
+  display: inline-block;
+}
+
+.face {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border: 1px solid $cube-border-color;
+  background-color: $cube-face-color;
+  animation: pulse 16s infinite ease;
+}
+
+// building the cube
+.face2{
+  transform: rotatey(90deg);
+}
+.face3{
+  transform: rotatey(-180deg);
+}
+.face4 {
+  transform: rotatey(-90deg);
+}
+.face5 {
+  transform: rotatex(90deg);
+}
+.face6 {
+  transform: rotatex(-90deg);
+}
+
+// define animations
+@keyframes spin {
+  to {
+    transform: rotate3d(1,1,1,-360deg);
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform-origin: 50% 50% -10px;
+  }
+  50% {
+    transform-origin: 50% 50% -40px;
+  }
+  100% {
+    transform-origin: 50% 50% -10px;
+  }
+}

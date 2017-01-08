@@ -1,0 +1,166 @@
+body {
+  text-align: center;
+  background-color: #282a36;
+  color: #f8f8f2;
+}
+
+#main-fold {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+
+  #main-fold-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    @media all and (min-width: 900px) {
+      height: 415px;
+    }
+    @media all and (min-width: 600px) and (max-width: 899px) {
+      height: 350px;
+    }
+    @media all and (max-width: 599px) {
+      height: 375px;
+    }
+
+    #main-header {
+      text-shadow: 0px 2px 1px #ff79c6;
+      @media all and (min-width: 900px) {
+        font-size: 6em;
+      }
+      @media all and (min-width: 600px) and (max-width: 899px) {
+        font-size: 4em;
+      }
+      @media all and (max-width: 599px) {
+        font-size: 3.8em;
+      }
+    }
+
+    #main-subheader {
+      text-shadow: 0px 1px 1px #ff79c6;
+      @media all and (min-width: 90px) {
+        font-size: 3em;
+      }
+      @media all and (min-width: 600px) and (max-width: 899px) {
+        font-size: 2em;
+      }
+      @media all and (max-width: 599px) {
+        font-size: 1.5em;
+      }
+    }
+  }
+}
+
+#skills-header, #education-header, #awards-header {
+  font-size: 2em;
+  text-shadow: 0px 1px 1px #ff79c6;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+
+
+#skills {
+  i {
+    font-size: 3.5em;
+    text-shadow: 0px 1px 1px #ff79c6;
+  }
+  ul {
+    margin-top: 10px;
+    li {
+      list-style-type: none;
+      margin-bottom: 0;
+      i {
+        font-size: 1em;
+        margin-left: 1px;
+        color: #ff79c6;
+      }
+    }
+  }
+}
+
+#skills-icons {
+  margin-top: 20px;
+  i {
+    font-size: 2.25em;
+  }
+  .lowercase {
+    font-size: 1.3em;
+  }
+}
+
+.logo {
+  max-height: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+#staples-logo {
+  position: relative;
+  .logo {
+    max-height: 90%;
+    max-width: 90%;
+  }
+
+  @media all and (min-width: 970px) {
+    bottom: 18px;
+  }
+  @media all and (max-width: 969px) {
+    bottom: 10px;
+  }
+}
+
+#education {
+  .education-title {
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+  hr {
+    width: 70%;
+    margin: 7px auto;
+  }
+}
+
+#awards {
+  #awards-list {
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+    li {
+      list-style-type: none;
+      line-height: 1.9em;
+    }
+    a {
+      color: #f8f8f2;
+    }
+  }
+}
+
+#experience-header, #links-header {
+  font-size: 2em;
+  text-shadow: 0px 1px 1px #ff79c6;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+
+#experience {
+  margin: 0 20px;
+}
+
+#links {
+  a {
+    margin-bottom: 25px;
+    font-size: 2.4em;
+    color: #f8f8f2;
+    text-shadow: 0px 1px 1px #ff79c6;
+    &:hover {
+      color: #f8f8f2;
+      text-shadow: 0px 1px 1px #ff79c6;
+    }
+  }
+  margin-bottom: 100px;
+}
+
+
+
