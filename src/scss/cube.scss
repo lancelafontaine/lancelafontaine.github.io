@@ -1,8 +1,9 @@
-$cube-border-color: #ccc;
-$cube-face-color: rgba(155,48,255,0.01);
+$cube-border-color: #f8f8f2;
+$cube-face-color: rgba(189,147,249,0.08);
 
 #floating-cube {
-  margin-top: 60px;
+  margin-top: 65px;
+  margin-bottom: 140px;
   margin-right: 40px;
   position: relative;
   transform-origin: 50% 50% -25px;

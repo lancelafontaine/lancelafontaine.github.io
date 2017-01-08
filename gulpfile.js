@@ -7,11 +7,15 @@
   const watch = require('gulp-watch');
   const plumber = require('gulp-plumber');
   const connect = require('gulp-connect');
-  const concat = require('gulp-concat');
   const sass = require('gulp-sass');
+  const rename = require('gulp-rename');
+  const rollup = require('rollup-stream');
+  const source = require('vinyl-source-stream');
+  const uglify = require('gulp-uglify');
+  const buffer = require('vinyl-buffer')
 
   gulp.task('default', () => {
-    runSequence(['html', 'css'], ['server', 'watch']);
+    runSequence(['html', 'css', 'js'], ['server', 'watch']);
   });
 
   gulp.task('html', () => {
@@ -24,9 +28,8 @@
   });
 
   gulp.task('css', () => {
-    gulp.src(['src/scss/*.scss', 'src/scss/*.css'])
+    gulp.src('src/scss/import.scss')
       .pipe(plumber())
-      .pipe(concat('style.min.css'))
       .pipe(sass())
       .pipe(autoprefixer({
         browsers: ['> 1%'],
@@ -35,6 +38,18 @@
       .pipe(cssmin({
         compatibility: 'ie8'
       }))
+      .pipe(rename('style.min.css'))
+      .pipe(gulp.dest('.'));
+  });
+
+  gulp.task('js', () => {
+    return rollup({
+        entry: './src/js/main.js'
+      })
+      .pipe(source('main.js'))
+      .pipe(plumber())
+      .pipe(buffer())
+      .pipe(uglify())
       .pipe(gulp.dest('.'));
   });
 
@@ -52,6 +67,9 @@
     });
     watch('src/scss/*.scss', () => {
         gulp.start('css');
+    });
+    watch('src/js/*.js', () => {
+        gulp.start('js');
     });
   });
 
