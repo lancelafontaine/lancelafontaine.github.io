@@ -96,20 +96,6 @@ body {
   max-width: 100%;
   margin-bottom: 20px;
 }
-#staples-logo {
-  position: relative;
-  .logo {
-    max-height: 90%;
-    max-width: 90%;
-  }
-
-  @media all and (min-width: 970px) {
-    bottom: 18px;
-  }
-  @media all and (max-width: 969px) {
-    bottom: 10px;
-  }
-}
 
 #education {
   .education-title {

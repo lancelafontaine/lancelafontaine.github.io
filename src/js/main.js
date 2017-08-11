@@ -46,15 +46,15 @@
 
   // hover over appdirect experience column
   var experienceAppdirect = document.getElementById('appdirect-logo');
-  applyTextOnHover(experienceAppdirect, experienceHeaderText, 'mouseover', 'AppHelp by AppDirect');
+  applyTextOnHover(experienceAppdirect, experienceHeaderText, 'mouseover', 'AppHelp');
 
   // hover over concordia experience column
   var experienceConcordia = document.getElementById('concordia-logo');
   applyTextOnHover(experienceConcordia, experienceHeaderText, 'mouseover', 'Concordia University');
 
-  // hover over staples experience column
-  var experienceStaples = document.getElementById('staples-logo');
-  applyTextOnHover(experienceStaples, experienceHeaderText, 'mouseover', 'Staples Canada');
+  // hover over shopify experience column
+  var experienceShopify= document.getElementById('shopify-logo');
+  applyTextOnHover(experienceShopify, experienceHeaderText, 'mouseover', 'Shopify');
 
   // no hover
   var experienceColumns = document.getElementsByClassName('experience-col');
