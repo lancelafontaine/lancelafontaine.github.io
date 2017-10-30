@@ -1,6 +1,0 @@
-
-(meld:3209): Gtk-WARNING **: Failed to get the GNOME session proxy: The name org.gnome.SessionManager is not owned
-
-(meld:3209): Gtk-WARNING **: Failed to get the Xfce session proxy: The name org.xfce.SessionManager is not owned
-
-(meld:3209): Gtk-WARNING **: Failed to get an inhibit portal proxy: The name org.freedesktop.portal.Desktop is not owned
